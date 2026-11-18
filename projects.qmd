@@ -1,0 +1,26 @@
+---
+title: "Projects & games"
+---
+
+::: {.grid}
+::: {.g-col-12 .g-col-md-6 .project}
+### 3D butterfly generator
+Builds a 3D butterfly model from morphological measurements.
+
+[Open the app](https://SEU-USERNAME.github.io/borboleta/)
+:::
+
+::: {.g-col-12 .g-col-md-6 .project}
+### Fall armyworm risk map
+Spodoptera frugiperda risk for the Federal District, Brazil.
+
+[Read more](#)
+:::
+
+::: {.g-col-12 .g-col-md-6 .project}
+### Game title
+One line on what the game is and how to play.
+
+[Play](#)
+:::
+:::

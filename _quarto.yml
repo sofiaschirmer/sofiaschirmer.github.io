@@ -1,0 +1,51 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Sofia C. Schirmer"
+  sidebar:
+    - id: en
+      style: docked
+      title: "Sofia C. Schirmer"
+      subtitle: "Entomology · Ecology"
+      search: false
+      contents:
+        - text: "Home"
+          href: index.qmd
+        - text: "Publications"
+          href: publications.qmd
+        - text: "CV"
+          href: cv.qmd
+        - text: "Português"
+          href: pt/index.qmd
+      tools:
+        - icon: envelope
+          href: mailto:sofiaschirmer@gmail.com
+        - icon: github
+          href: https://github.com/sofiaschirmer
+    - id: pt
+      style: docked
+      title: "Sofia C. Schirmer"
+      subtitle: "Entomologia · Ecologia"
+      search: false
+      contents:
+        - text: "Início"
+          href: pt/index.qmd
+        - text: "Publicações"
+          href: pt/publications.qmd
+        - text: "Currículo"
+          href: pt/cv.qmd
+        - text: "English"
+          href: index.qmd
+      tools:
+        - icon: envelope
+          href: mailto:sofiaschirmer@gmail.com
+        - icon: github
+          href: https://github.com/sofiaschirmer
+
+format:
+  html:
+    theme: [cosmo, styles.scss]
+    toc: false
+    page-layout: article

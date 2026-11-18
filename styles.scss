@@ -1,0 +1,23 @@
+/*-- scss:defaults --*/
+$body-bg: #fbfcfd;
+$body-color: #14213d;
+$link-color: #1f5fbf;
+$font-family-sans-serif: "Iowan Old Style", Palatino, "Palatino Linotype", Georgia, serif;
+$headings-font-family: "Iowan Old Style", Palatino, "Palatino Linotype", Georgia, serif;
+$font-size-root: 17px;
+
+/*-- scss:rules --*/
+h1, h2, h3 { font-weight: 600; letter-spacing: -0.01em; }
+h1.title { font-size: 2.4rem; margin-bottom: .25rem; }
+h2 { margin-top: 2.2rem; font-size: 1.5rem; border-bottom: 3px solid #f2c230; display: inline-block; padding-bottom: .1rem; }
+.sidebar { background: #14213d; }
+.sidebar, .sidebar a, .sidebar .sidebar-title, .sidebar .sidebar-subtitle { color: #eef2f8 !important; }
+.sidebar .sidebar-item a:hover, .sidebar .sidebar-item a.active { color: #f2c230 !important; }
+.quarto-title-block .subtitle { font-family: $headings-font-family; font-size: 1.25rem; color: #3a4a6b; }
+.lead { font-family: $headings-font-family; font-size: 1.3rem; line-height: 1.55; max-width: 38em; }
+#quarto-content ul { padding-left: 1.1rem; }
+#quarto-content li { margin-bottom: .7rem; max-width: 46em; }
+.project { border-left: 4px solid #1f5fbf; padding: .2rem 0 .2rem 1rem; }
+.project h3 { margin-top: 0; font-size: 1.2rem; }
+.portrait { width: 190px; height: 190px; object-fit: cover; border-radius: 50%; float: right; margin: 0 0 1rem 1.5rem; }
+@media (max-width: 767px) { .portrait { float: none; display: block; margin: 0 0 1rem; } }

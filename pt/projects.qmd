@@ -1,0 +1,26 @@
+---
+title: "Projetos e jogos"
+---
+
+::: {.grid}
+::: {.g-col-12 .g-col-md-6 .project}
+### Gerador de borboletas 3D
+Cria um modelo 3D de borboleta a partir de medidas morfológicas.
+
+[Abrir o app](https://SEU-USERNAME.github.io/borboleta/)
+:::
+
+::: {.g-col-12 .g-col-md-6 .project}
+### Mapa de risco da lagarta-do-cartucho
+Risco de Spodoptera frugiperda no Distrito Federal.
+
+[Saiba mais](#)
+:::
+
+::: {.g-col-12 .g-col-md-6 .project}
+### Nome do jogo
+Uma linha sobre o que é o jogo e como jogar.
+
+[Jogar](#)
+:::
+:::
